@@ -10,7 +10,6 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
@@ -31,5 +30,37 @@ h3{
     font-weight: 400;
     letter-spacing: 1px;
 
+}
+
+.sel-help-box  {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.sel-help-box  p {
+	letter-spacing: 1px;
+
+	color: #BABABA;
+}
+
+/* unvisited link */
+a:link {
+    color: #00FFEE;
+}
+
+/* visited link */
+a:visited {
+    color: #00C3FF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #BDFEFF;
+}
+
+/* selected link */
+a:active {
+    color: #00E1FF;
 }
 	
