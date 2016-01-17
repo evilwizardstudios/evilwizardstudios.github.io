@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -9,14 +8,19 @@
     <meta name="description" content="Brutal techniques!">
     <meta name="author" content="Evil Wizards">
 
-    <title>Evil Wizard Studios</title>
-	
-	<!-- CSS -->
-	<link href="css/ews.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <title>Evil Wizard Studios</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,500' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="css/ews.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,19 +29,50 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
 
-<div class="coming-soon">
-<h1>EVIL WIZARD STUDIOS</h1>
-<h3>Coming Soon</h3>
-</div>
+  <div class="row">
+      <div class="title"><span id="a">Evil</span>&nbsp;<span id="b">Wizard</span>&nbsp;<span id="c">Studios</span></div>
+      <div class="subtitle">purveyors of vile sorceries since 2014</div>
+  </div>
 
-<div class="sel-help-box">
-<p>Looking for Selectionator support? <a href="/selectionator">click here</a></p>
+  <div class="row">
+    <div class="container icons">
+      <div class="col-xs-4 col-md-2 col-md-offset-1">
+        <a href="/smithy" target="_blank">
+            <img src="img/smithy.png" class="icon img-circle">
+            <span class="text-content img-circle"><span><strong>Smithy</strong><p>A procedural generation framework for Unity</p></span></span></img>
+        </a>
+      </div>
+      <div class="col-xs-4 col-md-2">
+        <a href="/selectionator" target="_blank">
+          <img src="img/selectionator.png" class="icon img-circle">
+          <span class="text-content img-circle"><span><strong>Selectionator</strong><p>A weighted selection tool for Unity</p></span></span></img>
+      </div>
+      <div class="col-xs-4 col-md-2">
+        <a href="/UnityFlatEditor" target="_blank">
+          <img src="img/flateditor.png" class="icon img-circle">
+          <span class="text-content img-circle"><span><strong>Flat Editor</strong><p>Open source modern styling for the Unity Editor</p></span></span></img>
+        </a>
+      </div>
+      <div class="col-xs-6 col-md-2">
+        <a href="more.html" target="_blank">
+          <img src="img/more.png" class="icon img-circle">
+          <span class="text-content img-circle"><span><strong>More</strong></span></span></img>
+        </a>
+      </div>
+      <div class="col-xs-6 col-md-2">
+        <a href="https://twitter.com/evilwizards" target="_blank">
+          <img src="img/twitter.png" class="icon img-circle">
+          <span class="text-content img-circle"><span><strong>@evilwizards</strong></span></img>
+        </a>
+      </div>
+  </div>
 </div>
-
 
 </body>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -48,4 +83,5 @@
   ga('send', 'pageview');
 
 </script>
+
 </html>
