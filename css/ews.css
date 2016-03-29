@@ -88,14 +88,10 @@ transition: opacity 350ms;
 
 span strong {
   font-weight: 700
-  vertical-align: middle;
-
 }
 
 span p {
   font-weight: 300;
-  vertical-align: middle;
-
 }
 
 .text-content:hover {
@@ -105,21 +101,25 @@ span p {
 /* unvisited link */
 a:link {
     color: #00FFEE;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: #00C3FF;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: #BDFEFF;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
     color: #00E1FF;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {
