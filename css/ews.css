@@ -45,8 +45,11 @@ body {
   letter-spacing: -47px;
 }
 
-.icons
-{
+.limit{
+  height: 160px;
+}
+
+.icons{
   margin-top: 35%;
   text-align: center;
   color: black;
@@ -57,16 +60,25 @@ body {
 font-weight: 500;
 }
 
+.icons img{
+  width: 150px;
+  height: 150px;
+  display:block;
+margin:auto;
+}
+
 span.text-content {
   background: rgba(0,0,0,0.75);
   color: white;
   cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 20px;
-  position: absolute;
-  top: 0;
+  display:block;
+  margin:auto;
+  position: relative;
+  top: -150px;
   width: 150px;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
   opacity: 0;
 -webkit-transition: opacity 350ms;
 -moz-transition: opacity 350ms;
@@ -74,18 +86,16 @@ span.text-content {
 transition: opacity 350ms;
 }
 
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
 span strong {
   font-weight: 700
+  vertical-align: middle;
+
 }
 
 span p {
   font-weight: 300;
+  vertical-align: middle;
+
 }
 
 .text-content:hover {
@@ -141,6 +151,8 @@ a:active {
     font-size: 15px;
     margin-top: 15px;
   }
+
+}
 
   @media only screen and (max-width: 450px) {
 
